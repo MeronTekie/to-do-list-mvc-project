@@ -7,7 +7,7 @@ namespace ToDoList.Controllers
   public class HomeController : Controller
   {
     [HttpGet("/")]
-    public ActionResult CreateForm()
+    public ActionResult Index()
     {   
     return View();
     }
